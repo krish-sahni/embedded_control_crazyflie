@@ -16,7 +16,9 @@ def generate_launch_description():
     backend = LaunchConfiguration('backend')
 
     script_launch_arg = DeclareLaunchArgument(
-        'script'
+        'script',
+        default_value='hello_world',
+        description='Which example script to run'
     )
 
     backend_launch_arg = DeclareLaunchArgument(
@@ -24,6 +26,9 @@ def generate_launch_description():
         default_value='cpp'
     )
 
+    script = LaunchConfiguration('script')
+    backend = LaunchConfiguration('backend')
+    
     crazyflie = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('crazyflie'), 'launch'),

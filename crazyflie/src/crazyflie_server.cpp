@@ -1302,7 +1302,9 @@ private:
     if (data_position.size() > 0) {
       for (auto &bc : broadcaster_) {
         auto &cfbc = bc.second;
-        cfbc->sendExternalPositions(data_position);
+        // cfbc->sendExternalPositions(data_position);
+        // encoded
+        cfbc->sendExternalPositionsEncoded(data_position);
       }
     }
 

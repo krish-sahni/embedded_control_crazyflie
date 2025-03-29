@@ -1,0 +1,1 @@
+Invoking command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/krishsahni/ros2_ws/src/crazyswarm2/crazyflie_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces

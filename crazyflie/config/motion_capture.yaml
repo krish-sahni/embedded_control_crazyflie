@@ -1,19 +1,19 @@
 /motion_capture_tracking:
   ros__parameters:
     # one of "optitrack", "optitrack_closed_source", "vicon", "qualisys", "nokov", "vrpn", "motionanalysis"
-    type: "optitrack"
+    type: "qualisys"
     # Specify the hostname or IP of the computer running the motion capture software
-    hostname: "141.23.110.143"
+    hostname: "128.174.245.190"
 
     topics:
       poses:
         qos:
-          mode: "sensor"
+          mode: "none"
           deadline: 100.0 # Hz
 
     marker_configurations:
       default: # for standard Crazyflie
-        offset: [0.0, 0.0, 0.0]
+        offset: [0.0, 0.0, -0.04]
         points:
           p0: [   0.0,    0.0, 0.022]  # top
           p1: [-0.042,  0.042, 0.0  ]  # back left   (M3)

@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/krishsahni/ros2_ws/build/my_robot_tut",
+        "/home/krishsahni/ros2_ws/install/my_robot_tut/lib/python3.10/site-packages",
+        "/home/krishsahni/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages",
+        "/home/krishsahni/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages",
+        "/home/krishsahni/ros2_ws/build/crazyflie_py",
+        "/home/krishsahni/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages",
+        "/home/krishsahni/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/krishsahni/ros2_ws/build/my_robot_tut",
+        "/home/krishsahni/ros2_ws/install/my_robot_tut/lib/python3.10/site-packages",
+        "/home/krishsahni/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages",
+        "/home/krishsahni/ros2_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages",
+        "/home/krishsahni/ros2_ws/build/crazyflie_py",
+        "/home/krishsahni/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages",
+        "/home/krishsahni/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "ros.distro": "humble",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp"
+    }
+}

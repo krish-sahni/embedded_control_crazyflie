@@ -1,0 +1,155 @@
+[0.079s] Invoking command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie': AMENT_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/krishsahni/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie
+[0.221s] -- The C compiler identification is GNU 11.4.0
+[0.949s] -- The CXX compiler identification is GNU 11.4.0
+[1.419s] -- Detecting C compiler ABI info
+[1.571s] -- Detecting C compiler ABI info - done
+[1.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.577s] -- Detecting C compile features
+[1.577s] -- Detecting C compile features - done
+[1.579s] -- Detecting CXX compiler ABI info
+[1.734s] -- Detecting CXX compiler ABI info - done
+[1.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.740s] -- Detecting CXX compile features
+[1.740s] -- Detecting CXX compile features - done
+[1.742s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.863s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.913s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.932s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.159s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.163s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.169s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.248s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.548s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.569s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.603s] -- Looking for pthread.h
+[9.750s] -- Looking for pthread.h - found
+[9.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.926s] -- Found Threads: TRUE  
+[9.988s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[10.100s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[10.101s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[10.114s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.129s] -- Found crazyflie_interfaces: 2.0.0 (/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[10.141s] -- Found motion_capture_tracking_interfaces: 1.0.5 (/opt/ros/humble/share/motion_capture_tracking_interfaces/cmake)
+[10.177s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[10.345s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.392s] -- Configuring done
+[10.423s] -- Generating done
+[10.430s] -- Build files have been written to: /home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie
+[10.439s] Invoked command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/krishsahni/ros2_ws/src/crazyswarm2/crazyflie -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie
+[10.440s] Invoking command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie': AMENT_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie -- -j20 -l20
+[10.470s] [  2%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[10.471s] [  5%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[10.472s] [  7%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[10.472s] [ 10%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[10.472s] [ 12%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[10.473s] [ 15%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[10.473s] [ 17%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[10.475s] [ 20%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[10.475s] [ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[14.620s] [ 25%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[14.646s] [ 25%] Built target crazyflieLinkCpp
+[14.660s] [ 30%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[14.660s] [ 30%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[18.683s] [ 32%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[18.707s] [ 32%] Built target crazyflie_cpp
+[18.729s] [ 35%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[18.729s] [ 37%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[18.729s] [ 40%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[18.729s] [ 42%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[18.730s] [ 45%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[18.730s] [ 47%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[18.731s] [ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[18.731s] [ 52%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o[0m
+[18.735s] [ 55%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[18.735s] [ 57%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[18.735s] [ 60%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[18.735s] [ 62%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[18.739s] [ 65%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o[0m
+[23.417s] [ 67%] [32m[1mLinking CXX executable scan[0m
+[23.571s] [ 70%] [32m[1mLinking CXX executable listLogVariables[0m
+[23.604s] [ 72%] [32m[1mLinking CXX executable version[0m
+[23.675s] [ 75%] [32m[1mLinking CXX executable listMemories[0m
+[23.689s] [ 77%] [32m[1mLinking CXX executable listParams[0m
+[23.760s] [ 80%] [32m[1mLinking CXX executable console[0m
+[23.857s] [ 80%] Built target scan
+[23.876s] [ 82%] [32m[1mLinking CXX executable downloadUSDLogfile[0m
+[23.999s] [ 82%] Built target listLogVariables
+[24.025s] [ 82%] Built target listParams
+[24.028s] [ 82%] Built target version
+[24.057s] [ 82%] Built target listMemories
+[24.140s] [ 82%] Built target console
+[24.247s] [ 82%] Built target downloadUSDLogfile
+[24.501s] [ 85%] [32m[1mLinking CXX executable battery[0m
+[24.745s] [ 87%] [32m[1mLinking CXX executable reboot[0m
+[24.784s] [ 90%] [32m[1mLinking CXX executable comCheck[0m
+[24.865s] [ 90%] Built target battery
+[25.118s] [ 90%] Built target reboot
+[25.172s] [ 90%] Built target comCheck
+[25.579s] [ 92%] [32m[1mLinking CXX executable setParam[0m
+[25.642s] [ 95%] [32m[1mLinking CXX executable log[0m
+[26.079s] [ 95%] Built target setParam
+[26.131s] [ 95%] Built target log
+[31.242s] [ 97%] [32m[1mLinking CXX executable teleop[0m
+[31.795s] [ 97%] Built target teleop
+[54.685s] [100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[55.236s] [100%] Built target crazyflie_server
+[55.248s] Invoked command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie -- -j20 -l20
+[55.251s] Invoking command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie': AMENT_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie
+[55.256s] -- Install configuration: "Release"
+[55.256s] -- Execute custom install script
+[55.257s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/comCheck
+[55.262s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/scan
+[55.266s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/listParams
+[55.271s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/listLogVariables
+[55.275s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/listMemories
+[55.279s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/reboot
+[55.284s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/battery
+[55.288s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/version
+[55.293s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/console
+[55.297s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/log
+[55.301s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/setParam
+[55.305s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+[55.309s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/teleop
+[55.314s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/crazyflie_server
+[55.323s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[55.328s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/chooser.py
+[55.333s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/vel_mux.py
+[55.339s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/cfmult.py
+[55.344s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+[55.348s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/aideck_streamer.py
+[55.353s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/gui.py
+[55.358s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/lib/crazyflie/flash.py
+[55.372s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//launch/launch.py
+[55.377s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[55.381s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[55.386s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+[55.391s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//config/config.rviz
+[55.395s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[55.400s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[55.404s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//config/server.yaml
+[55.409s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//config/teleop.yaml
+[55.414s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+[55.419s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+[55.424s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+[55.428s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[55.432s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[55.437s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[55.441s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[55.445s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/environment/path.sh
+[55.449s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/environment/path.dsv
+[55.453s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/local_setup.bash
+[55.457s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/local_setup.sh
+[55.461s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/local_setup.zsh
+[55.465s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/local_setup.dsv
+[55.470s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/package.dsv
+[55.474s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[55.478s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[55.482s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[55.486s] -- Symlinking: /home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie/share/crazyflie/package.xml
+[55.492s] Invoked command in '/home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/krishsahni/ros2_ws/src/crazyswarm2/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/krishsahni/ros2_ws/src/crazyswarm2/build/crazyflie
