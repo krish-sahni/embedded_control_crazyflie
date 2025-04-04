@@ -1280,15 +1280,24 @@ private:
 
 
     // split the message into parts that require position update and pose update
+    std::vector<CrazyflieBroadcaster::encoded_data> data_position_encoded;
     std::vector<CrazyflieBroadcaster::externalPosition> data_position;
     std::vector<CrazyflieBroadcaster::externalPose> data_pose;
 
+
+    //encoded change needed:
+    // 3 options
+    // Option 1: change the if (isnan(true))
+    // Option 2: change any place data_pose is used to data_position
+    // Option 3: change mocap settings to only pos
+
+    //going for option 3
     for (const auto& pose : msg->poses) {
       const auto iter = name_to_id_.find(pose.name);
       if (iter != name_to_id_.end()) {
         uint8_t id = iter->second;
         if (isnan(pose.pose.orientation.w)) {
-          data_position.push_back({id, 
+          data_position_encoded.push_back({id, 
             (float)pose.pose.position.x, (float)pose.pose.position.y, (float)pose.pose.position.z});
         } else {
           data_pose.push_back({id, 
@@ -1299,11 +1308,12 @@ private:
     }
 
     // send position only updates to the swarm
-    if (data_position.size() > 0) {
+    if (data_position_encoded.size() > 0) {
       for (auto &bc : broadcaster_) {
         auto &cfbc = bc.second;
         // cfbc->sendExternalPositions(data_position);
         // encoded
+        
         cfbc->sendExternalPositionsEncoded(data_position);
       }
     }
