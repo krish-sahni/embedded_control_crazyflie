@@ -1275,6 +1275,8 @@ private:
   {
     mocap_data_received_timepoints_.emplace_back(std::chrono::steady_clock::now());
 
+    
+
     // Here, we send all the poses to all CFs
     // In Crazyswarm1, we only sent the poses of the same group (i.e. channel)
 
@@ -1296,14 +1298,25 @@ private:
       const auto iter = name_to_id_.find(pose.name);
       if (iter != name_to_id_.end()) {
         uint8_t id = iter->second;
-        if (isnan(pose.pose.orientation.w)) {
-          data_position_encoded.push_back({id, 
-            (float)pose.pose.position.x, (float)pose.pose.position.y, (float)pose.pose.position.z});
-        } else {
-          data_pose.push_back({id, 
-            (float)pose.pose.position.x, (float)pose.pose.position.y, (float)pose.pose.position.z,
-            (float)pose.pose.orientation.x, (float)pose.pose.orientation.y, (float)pose.pose.orientation.z, (float)pose.pose.orientation.w});
-        }
+        
+        RCLCPP_INFO(logger_, "[all] Received poses, sending encoded");
+        data_position_encoded.push_back({ 
+          // (uint8_t)pose.pose.position.x, (uint8_t)pose.pose.position.y, (uint8_t)pose.pose.position.z
+          3, 4, 5,
+        });
+
+        // if (isnan(pose.pose.orientation.w)) {
+        //   RCLCPP_INFO(logger_, "[all] Received poses");
+        //   data_position_encoded.push_back({ 
+        //     // (uint8_t)pose.pose.position.x, (uint8_t)pose.pose.position.y, (uint8_t)pose.pose.position.z
+        //     3, 4, 5,
+        //   });
+        // } else {
+        //   RCLCPP_INFO(logger_, "[all] 123456");
+        //   data_pose.push_back({id, 
+        //     (float)pose.pose.position.x, (float)pose.pose.position.y, (float)pose.pose.position.z,
+        //     (float)pose.pose.orientation.x, (float)pose.pose.orientation.y, (float)pose.pose.orientation.z, (float)pose.pose.orientation.w});
+        // }
       }
     }
 
@@ -1313,8 +1326,9 @@ private:
         auto &cfbc = bc.second;
         // cfbc->sendExternalPositions(data_position);
         // encoded
+        RCLCPP_INFO(logger_, "[all] checker");
         
-        cfbc->sendExternalPositionsEncoded(data_position);
+        cfbc->sendExternalPositionsEncoded(data_position_encoded);
       }
     }
 

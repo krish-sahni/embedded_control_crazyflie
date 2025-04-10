@@ -2,7 +2,7 @@
 robots:
   cf1:
     enabled: true
-    uri: radio://0/80/2M/E7E7E7E701
+    uri: radio://0/80/2M/E7E7E7E7E0
     initial_position: [0.0, 0.0, 0.0]
     type: cf21  # see robot_types
     # firmware_params:
@@ -14,46 +14,46 @@ robots:
     #     topic_name3: 
     #       frequency: 1
     #       vars: ["acc.x", "acc.y"]
-  cf3:
-    enabled: true
-    uri: radio://0/80/2M/E7E7E7E703
-    initial_position: [0.0, -0.5, 0.0]
-    type: cf21  # see robot_types
-    # firmware_params:
-    #   kalman:
-    #     pNAcc_xy: 1.0 # default 0.5
-    # firmware_logging:
-    #  custom_topics:
-    #    topic_name3: 
-    #      frequency: 1
-    #      vars: ["acc.x", "acc.y", "acc.z"]
-  cf5:
-    enabled: true
-    uri: radio://0/80/2M/E7E7E7E7E5
-    initial_position: [0.0, 0.0, 0.0]
-    type: cf21  # see robot_types
-    # firmware_params:
-    #   kalman:
-    #     pNAcc_xy: 1.0 # default 0.5
-    # firmware_logging:
-    #   enabled: true
-    #   custom_topics:
-    #     topic_name3: 
-    #       frequency: 1
-    #       vars: ["acc.x", "acc.y"]
-  cf7:
-    enabled: true
-    uri: radio://0/80/2M/E7E7E7E7E7
-    initial_position: [0.0, -0.5, 0.0]
-    type: cf21  # see robot_types
-    # firmware_params:
-    #   kalman:
-    #     pNAcc_xy: 1.0 # default 0.5
-    # firmware_logging:
-    #  custom_topics:
-    #    topic_name3: 
-    #      frequency: 1
-    #      vars: ["acc.x", "acc.y", "acc.z"]
+  # cf3:
+  #   enabled: true
+  #   uri: radio://0/80/2M/E7E7E7E703
+  #   initial_position: [0.0, -0.5, 0.0]
+  #   type: cf21  # see robot_types
+  #   # firmware_params:
+  #   #   kalman:
+  #   #     pNAcc_xy: 1.0 # default 0.5
+  #   # firmware_logging:
+  #   #  custom_topics:
+  #   #    topic_name3: 
+  #   #      frequency: 1
+  #   #      vars: ["acc.x", "acc.y", "acc.z"]
+  # cf5:
+  #   enabled: true
+  #   uri: radio://0/80/2M/E7E7E7E7E5
+  #   initial_position: [0.0, 0.0, 0.0]
+  #   type: cf21  # see robot_types
+  #   # firmware_params:
+  #   #   kalman:
+  #   #     pNAcc_xy: 1.0 # default 0.5
+  #   # firmware_logging:
+  #   #   enabled: true
+  #   #   custom_topics:
+  #   #     topic_name3: 
+  #   #       frequency: 1
+  #   #       vars: ["acc.x", "acc.y"]
+  # cf7:
+  #   enabled: true
+  #   uri: radio://0/80/2M/E7E7E7E7E7
+  #   initial_position: [0.0, -0.5, 0.0]
+  #   type: cf21  # see robot_types
+  #   # firmware_params:
+  #   #   kalman:
+  #   #     pNAcc_xy: 1.0 # default 0.5
+  #   # firmware_logging:
+  #   #  custom_topics:
+  #   #    topic_name3: 
+  #   #      frequency: 1
+  #   #      vars: ["acc.x", "acc.y", "acc.z"]
 # Definition of the various robot types
 robot_types:
   cf21:
@@ -106,10 +106,10 @@ all:
         frequency: 10 # Hz
       status:
         frequency: 1 # Hz
-    #custom_topics:
-    #  topic_name1:
-    #    frequency: 10 # Hz
-    #    vars: ["stateEstimateZ.x", "stateEstimateZ.y", "stateEstimateZ.z", "pm.vbat"]
+    custom_topics:
+     topic_name1:
+       frequency: 10 # Hz
+       vars: ["ae483log.foo", "ae483log.bar", "ae483log.baz"]
     #  topic_name2:
     #    frequency: 1 # Hz
     #    vars: ["stabilizer.roll", "stabilizer.pitch", "stabilizer.yaw"]
